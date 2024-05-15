@@ -1,0 +1,90 @@
+/* styles.css */
+
+/* General Body Styles */
+body {
+    padding-top: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Navbar Styles */
+.navbar-brand {
+    font-size: 24px;
+    color: #5a5a5a;
+}
+
+.navbar {
+    margin-bottom: 20px;
+    border-radius: 0;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav > li > a {
+    color: #5a5a5a;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+    background-color: #e7e7e7;
+}
+
+/* Dropdown Menu Styles */
+.dropdown-menu {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu > li > a {
+    color: #5a5a5a;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-color: #f4f4f4;
+}
+
+/* Menu Content Styles */
+#menu-content {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none; /* Initially hidden */
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+#menu-content h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#menu-content p {
+    color: #666;
+}
+
+#menu-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu-content ul li {
+    background: #e7e7e7;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    color: #333;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
